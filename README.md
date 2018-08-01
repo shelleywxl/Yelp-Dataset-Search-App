@@ -7,7 +7,6 @@ Users can use it to search for businesses and users that match their search crit
 Files
 - createdb.sql: create tables, including indexes.
 - dropdb.sql: drop all tables
-- populate.java: get the names of the input files as command line parameters and populate them into the database. It is executed as:
-> java populate yelp_business.json yelp_review.json yelp_checkin.json yelp_user.json
-(Some json files are too large to be uploaded)
+- populate.java: get the names of the input files as command line parameters and populate them into the database (Some json files are too large to be uploaded). It is executed as:
+>> java populate yelp_business.json yelp_review.json yelp_checkin.json yelp_user.json
 - hw3.java: provide a GUI to query the database.
