@@ -1,3 +1,0 @@
-/*
-    createdb.sql
-*/
